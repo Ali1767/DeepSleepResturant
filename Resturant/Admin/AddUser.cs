@@ -32,10 +32,10 @@ namespace Resturant
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string UserType = "";
+            string UserType = ""; 
 
-            if(txtUsername.Text == "" || txtPassword.Text == "" || txtEmail.Text == "")
-            {
+            if (txtUsername.Text == "" || txtPassword.Text == "" || txtEmail.Text == "")
+            { // Checks if the username, password, or email fields are empty.
                 MessageBox.Show($"Please Fill All User Infromation");
             }
 
@@ -52,17 +52,19 @@ namespace Resturant
                 UserType = "customer";
             }
             bool is_created = User.RegisterUser(txtUsername.Text, txtPassword.Text, txtEmail.Text, UserType);
+            // Registers the user with the entered  user type 
             if (is_created)
-            {
+            { // Checks if the user was successfully registered.
                 MessageBox.Show($"New User With {UserType} Role Has Been Added !");
                 this.EmptyAllFields();
             }
             else
             {
                 MessageBox.Show("User Information is not Correct or User Exsist");
+                // Shows a message box if the user already exists or input  incorrect information.
             }
-            
-            
+
+
 
 
 
@@ -109,8 +111,9 @@ namespace Resturant
 
         private void AddUser_Load(object sender, EventArgs e)
         {
-
+            
         }
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -128,6 +131,16 @@ namespace Resturant
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdoChef_CheckedChanged(object sender, EventArgs e)
         {
 
         }

@@ -7,7 +7,7 @@ namespace Resturant
     internal class User
     {
         public string username, password, email, role;
-        private static string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\ahezm\\Downloads\\DeepSleepResturant\\DeepSleepResturant\\Resturant\\Database1.mdf;Integrated Security=True";
+        private static string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\alial\\source\\repos\\Ali1767\\DeepSleepResturant\\Resturant\\Database1.mdf;Integrated Security=True";
         private User()
         {
             
@@ -51,6 +51,10 @@ namespace Resturant
                 return false;
             }
         }
+
+
+
+       
 
         public static User Login(string userID, string password)
         {

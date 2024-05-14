@@ -63,6 +63,17 @@ namespace Resturant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Male_Icon_Clipart_Transparent_Background__Business_Male_Icon_Vector__Business_Icons__Male_Icons__Job_Clipart_PNG_Image_For_Free_Download {
+            get {
+                object obj = ResourceManager.GetObject("Male Icon Clipart Transparent Background, Business Male Icon Vector, Business Ico" +
+                        "ns, Male Icons, Job Clipart PNG Image For Free Download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2024_04_26_at_15_22_36_91401295 {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2024-04-26 at 15.22.36_91401295", resourceCulture);

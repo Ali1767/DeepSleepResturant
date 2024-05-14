@@ -94,6 +94,7 @@
             this.txtUsername.Size = new System.Drawing.Size(230, 22);
             this.txtUsername.TabIndex = 3;
             this.txtUsername.UseWaitCursor = true;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // txtPassword
             // 
@@ -119,7 +120,7 @@
             this.btnAdd_user.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(114)))), ((int)(((byte)(45)))));
             this.btnAdd_user.Font = new System.Drawing.Font("Microsoft Uighur", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd_user.ForeColor = System.Drawing.Color.Black;
-            this.btnAdd_user.Location = new System.Drawing.Point(60, 408);
+            this.btnAdd_user.Location = new System.Drawing.Point(72, 404);
             this.btnAdd_user.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdd_user.Name = "btnAdd_user";
             this.btnAdd_user.Size = new System.Drawing.Size(288, 48);
@@ -131,13 +132,14 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(12, 11);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(219, 23);
             this.button2.TabIndex = 7;
             this.button2.Text = "HOME";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.UseWaitCursor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -183,6 +185,7 @@
             this.rdoChef.Text = "Chef";
             this.rdoChef.UseVisualStyleBackColor = true;
             this.rdoChef.UseWaitCursor = true;
+            this.rdoChef.CheckedChanged += new System.EventHandler(this.rdoChef_CheckedChanged);
             // 
             // panel1
             // 
@@ -221,9 +224,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(72, 124);
+            this.pictureBox1.Location = new System.Drawing.Point(49, 150);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(269, 274);
+            this.pictureBox1.Size = new System.Drawing.Size(438, 274);
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.UseWaitCursor = true;

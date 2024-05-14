@@ -48,7 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -81,6 +83,13 @@
     <Compile Include="Admin\Options.Designer.cs">
       <DependentUpon>Options.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Update.Designer.cs">
+      <DependentUpon>Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User9.cs" />
     <Compile Include="chef\ChefMainPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Options.resx">
       <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Update.resx">
+      <DependentUpon>Update.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="chef\ChefMainPage.resx">
       <DependentUpon>ChefMainPage.cs</DependentUpon>
@@ -208,6 +220,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\Male Icon Clipart Transparent Background, Business Male Icon Vector, Business Icons, Male Icons, Job Clipart PNG Image For Free Download.jpeg" />
     <None Include="Resources\Premium Vector _ Handdrawn chef logo mascot delicious.jpeg" />
     <None Include="Resources\Capture.PNG" />
   </ItemGroup>
