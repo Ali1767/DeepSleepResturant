@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Resturant.Admin;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,6 +17,8 @@ namespace Resturant
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            //Application.Run(new Feed___Back());
             Application.Run(new LoginPage());
         }
     }

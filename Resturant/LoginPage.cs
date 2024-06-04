@@ -62,10 +62,11 @@ namespace Resturant
                 {
                     ManagerMainPage managerMain = new ManagerMainPage();
                     managerMain.Show();
-                } else if (user.role == "chef")
+                }
+                else if (user.role == "chef")
                 {
-                    ChefMainPage chefMainPage = new ChefMainPage();
-                    chefMainPage.Show();
+                    ChefMainPage chefMain = new ChefMainPage();
+                    chefMain.Show();
                 }
                 this.Hide();
             }
@@ -110,9 +111,9 @@ namespace Resturant
             }
         }
 
-        private void chbxShowPassword_CheckedChanged(object sender, EventArgs e)
+        private void LoginPage_Load(object sender, EventArgs e)
         {
-            txtPassword.PasswordChar = chbxShowPassword.Checked ? '\0' : '*';
+
         }
     }
 }

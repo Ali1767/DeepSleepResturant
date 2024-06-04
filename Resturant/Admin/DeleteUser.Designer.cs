@@ -41,7 +41,7 @@
             // userListView
             // 
             this.userListView.HideSelection = false;
-            this.userListView.Location = new System.Drawing.Point(45, 95);
+            this.userListView.Location = new System.Drawing.Point(66, 124);
             this.userListView.Name = "userListView";
             this.userListView.Size = new System.Drawing.Size(511, 345);
             this.userListView.TabIndex = 0;
@@ -113,6 +113,7 @@
             this.txtUsername.Size = new System.Drawing.Size(230, 22);
             this.txtUsername.TabIndex = 3;
             this.txtUsername.UseWaitCursor = true;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // button2
             // 
