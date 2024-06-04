@@ -33,9 +33,7 @@ namespace Resturant.chef
 
         private void btnInventory_Click(object sender, EventArgs e)
         {
-            Ingredient_Inventory inventory = new Ingredient_Inventory();
-            inventory.Show();
-            this.Hide();
+            
         }
 
         private void btnUpdateProfile_Click(object sender, EventArgs e)
