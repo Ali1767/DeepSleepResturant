@@ -107,6 +107,12 @@
     <Compile Include="Admin\Edit_Users.Designer.cs">
       <DependentUpon>Edit_Users.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin\view_sales2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\view_sales2.Designer.cs">
+      <DependentUpon>view_sales2.cs</DependentUpon>
+    </Compile>
     <Compile Include="chef\ChefMainPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Edit_Users.resx">
       <DependentUpon>Edit_Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\view_sales2.resx">
+      <DependentUpon>view_sales2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="chef\ChefMainPage.resx">
       <DependentUpon>ChefMainPage.cs</DependentUpon>

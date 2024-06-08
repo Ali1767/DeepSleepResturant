@@ -17,9 +17,8 @@ namespace Resturant
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            //Application.Run(new Feed___Back());
             Application.Run(new LoginPage());
+            //Application.Run(new view_sales2());
         }
     }
 }
